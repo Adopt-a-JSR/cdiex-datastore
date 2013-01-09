@@ -1,0 +1,6 @@
+CDI example application
+
+This is a bean archive that includes a simple datastore and a logger producer utility. 
+
+It is a dependency for cdiex-palindrome-jsf.
+
