@@ -15,6 +15,8 @@
 	</weld:scan>
 -->
 
+	<!-- https://issues.jboss.org/browse/CDI-18 
+		 Global enablement of interceptors, decorators and alternatives -->
     <alternatives>
         <class priority="100">cdi.example.datastore.NoOpDataStore</class>
     </alternatives>
