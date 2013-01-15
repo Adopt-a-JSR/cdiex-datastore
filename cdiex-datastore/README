@@ -4,4 +4,4 @@ This is a bean archive that includes a simple datastore and a logger producer ut
 
 It is a dependency for cdiex-palindrome-jsf.
 
-To run the Arquillian integration tests, you'll need to build arquillian-weld-ee-embedded-2.0 from arquillian-parent-weld.  
+To run the Arquillian integration tests, you'll need to build arquillian-weld-ee-embedded-2.0 from arquillian-container-weld.  

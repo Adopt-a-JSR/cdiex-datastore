@@ -20,7 +20,7 @@ import cdi.example.utils.producers.LoggerProducer;
 
 
 @RunWith(Arquillian.class)
-public class NoOpMetadatAwareDataStoreTest {
+public class NoOpMetadataAwareDataStoreTest {
 
 	
 	@Deployment

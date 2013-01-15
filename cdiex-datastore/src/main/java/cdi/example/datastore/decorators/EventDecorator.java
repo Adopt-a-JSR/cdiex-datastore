@@ -32,8 +32,9 @@ public abstract class EventDecorator<T> implements Event<T>, Serializable {
 	private Queue<T> queue = new ConcurrentLinkedQueue<T>();
 	
 	
-	// Note: I believe this might change event ordering but I just want to give an example of event queueing
-	// even if a very simple one
+	// Note: I believe this might change event ordering. Don't use it blindly! 
+	// It's just meant to give a simple example of what can be done by decorating 
+	// built-in beans (e.g. event queueing).
 	@Override
 	public void fire(T arg) {
 		queue.add(arg);
